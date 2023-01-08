@@ -5116,7 +5116,7 @@ void idPlayer::UpdateFlashlight() {
 	}
 
 	// Flashlight has an infinite battery in multiplayer.
-	if ( !common->IsMultiplayer() ) {
+	if ( !common->IsMultiplayer() && false) {
 		if ( flashlight.GetEntity()->lightOn ) {
 			if ( flashlight_batteryDrainTimeMS.GetInteger() > 0 ) {
 				flashlightBattery -= ( gameLocal.time - gameLocal.previousTime );
