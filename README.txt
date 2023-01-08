@@ -1,3 +1,14 @@
+==================================
+INSTALLATION
+
+Download install [old DirectX SDK](https://disk.yandex.ru/d/9BQCIRTM88nTtA)
+
+Install components for MSVS2019 using Visual Studio 2019 installer:
+- ATL C++ v14.27 for build tools v142 (x86 & x64)
+- MFC C++ v14.27 for build tools v142 (x86 & x84)
+
+==================================
+
 Doom 3 BFG Edition GPL Source Code
 ==================================
 
